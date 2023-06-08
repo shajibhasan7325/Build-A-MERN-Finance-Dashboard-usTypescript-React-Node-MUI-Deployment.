@@ -24,7 +24,7 @@ type Props = {};
 const Row1 = (props: Props) => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
-  console.log("data:", data);
+
   const revenue = useMemo(() => {
     return (
       data &&
